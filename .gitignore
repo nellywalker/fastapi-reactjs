@@ -1,0 +1,59 @@
+# === PYTHON / FASTAPI ===
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+*.log
+*.env
+.env.*
+venv/
+env/
+instance/
+.mypy_cache/
+.pytest_cache/
+.cache/
+.coverage
+
+# Pydantic v2 migration file warning
+*.pydantic_migration.*
+
+# VSCode / PyCharm / autres éditeurs
+.vscode/
+.idea/
+
+# === REACT.JS / FRONTEND ===
+# Node modules
+frontend/node_modules/
+frontend/.env
+frontend/.env.*
+
+# Build files
+frontend/build/
+frontend/dist/
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.eslintcache
+
+# Cache
+frontend/.parcel-cache/
+frontend/.turbo/
+frontend/.next/
+
+# === SYSTEME / OS ===
+.DS_Store
+Thumbs.db
+
+# === TESTS ===
+.coverage
+htmlcov/
+junit.xml
+reports/
+
+# === GIT ===
+*.swp
+*.swo
+*.bak
+*.orig
